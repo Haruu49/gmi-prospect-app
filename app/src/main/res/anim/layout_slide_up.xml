@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout animation for the programme RecyclerView: each card starts a little after the previous one. -->
+<layoutAnimation xmlns:android="http://schemas.android.com/apk/res/android"
+    android:animation="@anim/item_slide_up"
+    android:animationOrder="normal"
+    android:delay="25%" />

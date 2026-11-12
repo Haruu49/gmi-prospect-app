@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Official GMI links and contact values used by intents (dial, email, browser, maps).
+    These are not translated. Sources: gmi.edu.my header/footer and Contact Us page.
+-->
+<resources>
+    <string name="url_apply_online" translatable="false">https://gmi.vialing.com/oa/login</string>
+    <string name="url_gmi_home" translatable="false">https://www.gmi.edu.my/</string>
+    <string name="url_contact" translatable="false">https://www.gmi.edu.my/contact-us/</string>
+    <string name="url_official_map" translatable="false">https://www.gmi.edu.my/contact-us/#gmimap</string>
+    <string name="url_diploma_admission" translatable="false">https://www.gmi.edu.my/diploma-programme-admission/</string>
+    <string name="url_gapp_page" translatable="false">https://www.gmi.edu.my/pre-university-programme/german-a-level-preparatory-programme-gapp/</string>
+    <string name="url_gufp_page" translatable="false">https://www.gmi.edu.my/gmi-utp-foundation-studies-programme/</string>
+    <string name="url_whatsapp" translatable="false">https://wasap.my/+601156741706</string>
+    <string name="url_facebook" translatable="false">https://www.facebook.com/germanmalaysianinstitute</string>
+    <string name="url_instagram" translatable="false">https://instagram.com/germanmalaysianinstitute</string>
+    <string name="url_tiktok" translatable="false">https://www.tiktok.com/@germanmalaysianinstitute</string>
+    <string name="url_youtube" translatable="false">https://youtube.com/channel/UCbMySMz4KlW8MSmGiW64bNw</string>
+    <string name="url_linkedin" translatable="false">https://www.linkedin.com/company/gmi_official/</string>
+
+    <string name="phone_main_dial" translatable="false">+60389219000</string>
+    <string name="email_address" translatable="false">marketing@gmi.edu.my</string>
+    <string name="map_query" translatable="false">German-Malaysian Institute, Jalan Ilmiah, Taman Universiti, 43000 Kajang, Selangor</string>
+</resources>

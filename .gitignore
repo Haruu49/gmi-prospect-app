@@ -1,0 +1,22 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Android Studio settings (machine-specific)
+/.idea/
+
+# Assignment report files (kept local, not published)
+/docs/SPG0562 Mini Project Report - GMI Prospect.docx
+/docs/REPORT_CONTENT.md

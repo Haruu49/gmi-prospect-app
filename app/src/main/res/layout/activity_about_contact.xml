@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- About & Contact: GMI introduction, vision/mission, official contacts, enquiries and map. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:orientation="vertical"
+    tools:context=".AboutContactActivity">
+
+    <include layout="@layout/view_app_bar" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- About -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <!-- Official GMI logo (the original ea-inst-logo-gmi.png file). The white badge
+                         keeps the blue logo readable in dark mode. -->
+                    <ImageView
+                        android:id="@+id/about_logo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="72dp"
+                        android:layout_marginBottom="12dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/bg_logo_badge"
+                        android:contentDescription="@string/content_desc_logo"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/logo_gmi" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/about_heading"
+                        android:textAppearance="@style/TextAppearance.GMI.SectionTitle" />
+
+                    <View
+                        android:layout_width="48dp"
+                        android:layout_height="4dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/bg_accent_bar" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/about_body"
+                        android:textAppearance="@style/TextAppearance.GMI.Body" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/about_vision_title"
+                        android:textAppearance="@style/TextAppearance.GMI.Label" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/about_vision_body"
+                        android:textAppearance="@style/TextAppearance.GMI.Body"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/about_mission_title"
+                        android:textAppearance="@style/TextAppearance.GMI.Label" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/about_mission_body"
+                        android:textAppearance="@style/TextAppearance.GMI.Body"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Official contact details -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="20dp"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:text="@string/contact_heading"
+                        android:textAppearance="@style/TextAppearance.GMI.SectionTitle" />
+
+                    <include
+                        android:id="@+id/row_address"
+                        layout="@layout/item_contact_row" />
+
+                    <include
+                        android:id="@+id/row_phone"
+                        layout="@layout/item_contact_row" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="56dp"
+                        android:text="@string/contact_phone_other"
+                        android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+                        android:textColor="@color/text_secondary" />
+
+                    <include
+                        android:id="@+id/row_fax"
+                        layout="@layout/item_contact_row" />
+
+                    <include
+                        android:id="@+id/row_email"
+                        layout="@layout/item_contact_row" />
+
+                    <include
+                        android:id="@+id/row_whatsapp"
+                        layout="@layout/item_contact_row" />
+
+                    <include
+                        android:id="@+id/row_website"
+                        layout="@layout/item_contact_row" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Enquiries -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/enquiry_heading"
+                        android:textAppearance="@style/TextAppearance.GMI.SectionTitle" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/enquiry_body"
+                        android:textAppearance="@style/TextAppearance.GMI.Body" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/button_enquiry_form"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/action_enquiry_form"
+                        app:icon="@drawable/ic_open_in_new" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Location -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/location_heading"
+                        android:textAppearance="@style/TextAppearance.GMI.SectionTitle" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/location_body"
+                        android:textAppearance="@style/TextAppearance.GMI.Body" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/button_maps"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/action_open_maps"
+                        app:icon="@drawable/ic_place" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/button_official_map"
+                        style="@style/Widget.Material3.Button.OutlinedButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/action_official_map"
+                        app:icon="@drawable/ic_open_in_new" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Social media -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/social_heading"
+                android:textAppearance="@style/TextAppearance.GMI.SectionTitle" />
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/social_chips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_facebook"
+                    style="@style/Widget.Material3.Chip.Assist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/social_facebook" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_instagram"
+                    style="@style/Widget.Material3.Chip.Assist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/social_instagram" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_tiktok"
+                    style="@style/Widget.Material3.Chip.Assist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/social_tiktok" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_youtube"
+                    style="@style/Widget.Material3.Chip.Assist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/social_youtube" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/chip_linkedin"
+                    style="@style/Widget.Material3.Chip.Assist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/social_linkedin" />
+            </com.google.android.material.chip.ChipGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/about_source_note"
+                android:textAppearance="@style/TextAppearance.Material3.BodySmall"
+                android:textColor="@color/text_secondary" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

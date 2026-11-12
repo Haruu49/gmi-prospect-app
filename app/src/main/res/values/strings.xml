@@ -1,0 +1,290 @@
+<resources>
+    <!--
+        All user-facing text for the GMI Prospect app.
+        Programme content was taken from the official GMI website and the GMI Programme
+        Guide (May 2026, rev 02), checked on 5 November 2026. See docs/REPORT_CONTENT.md
+        for the source of each entry requirement.
+    -->
+
+    <string name="app_name">GMI Prospect</string>
+
+    <!-- ===== Common actions ===== -->
+    <string name="action_explore_programmes">Explore programmes</string>
+    <string name="action_check_eligibility">Check eligibility</string>
+    <string name="action_apply_online">Apply Online</string>
+    <string name="action_view_details">View details</string>
+    <string name="action_official_page">Official page</string>
+    <string name="action_contact_gmi">Contact GMI</string>
+    <string name="action_check_again">Check again</string>
+    <string name="action_see_all">See all</string>
+    <string name="action_open_maps">Open in Google Maps</string>
+    <string name="action_official_map">GMI location map</string>
+    <string name="action_enquiry_form">Online enquiry form</string>
+    <string name="action_check">Check my eligibility</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_view_requirements">View official requirements</string>
+    <string name="error_no_app">No app found to open this link.</string>
+    <string name="content_desc_logo">German-Malaysian Institute (GMI) logo</string>
+
+    <!-- ===== Home ===== -->
+    <string name="home_eyebrow">German-Malaysian Institute</string>
+    <string name="home_hero_title">Pioneer in TVET-based learning</string>
+    <string name="home_hero_subtitle">Build your future with German engineering technology. Explore GMI’s programmes and check which ones you can apply for.</string>
+    <string name="home_welcome_title">Welcome to GMI</string>
+    <string name="home_welcome_body">German-Malaysian Institute (GMI) in Kajang, Selangor, is the outcome of a joint venture between the Governments of Malaysia and Germany. It offers a broad-based engineering education that balances practical and theoretical training, with opportunities for specialisation and self-directed learning.</string>
+    <string name="home_highlights_title">Why choose GMI</string>
+    <string name="highlight_practical_value" formatted="false">70%</string>
+    <string name="highlight_practical_label" formatted="false">Practical learning, 30% theory</string>
+    <string name="highlight_centres_value">22</string>
+    <string name="highlight_centres_label">Advanced Technology Centres</string>
+    <string name="highlight_intake_value">1992</string>
+    <string name="highlight_intake_label">First student enrolment</string>
+    <string name="highlight_industry_value">Industry</string>
+    <string name="highlight_industry_label">Internship &amp; job placement opportunities</string>
+    <string name="home_programmes_title">Programmes offered</string>
+    <string name="home_tools_title">Plan your next step</string>
+    <string name="home_tool_eligibility_title">Eligibility checker</string>
+    <string name="home_tool_eligibility_body">Enter your SPM, O-Level/IGCSE or UEC grades and see every programme you may qualify for.</string>
+    <string name="home_tool_about_title">About &amp; Contact</string>
+    <string name="home_tool_about_body">GMI’s background, official contact details, enquiries and location map.</string>
+    <string name="home_contact_title">Get in touch</string>
+    <string name="home_source_note">Content adapted from the official GMI website (gmi.edu.my) and the GMI Programme Guide (May 2026). Details can change, so always confirm with GMI before applying.</string>
+
+    <!-- ===== Programmes list ===== -->
+    <string name="programmes_title">Programmes</string>
+    <string name="programmes_intro">GMI offers 2 pre-university programmes and 15 diplomas in 5 groups. Diplomas in the same group share the same entry requirements. Tap a programme to see its details, entry requirements and official sources.</string>
+    <string name="label_entry_summary">Entry requirements (summary)</string>
+    <string name="label_intake_value">Intake: %1$s</string>
+
+    <!-- ===== Programme detail ===== -->
+    <string name="detail_title">Programme details</string>
+    <string name="detail_overview">Overview</string>
+    <string name="detail_key_facts">Key facts</string>
+    <string name="detail_intake">Intake</string>
+    <string name="detail_duration">Duration &amp; structure</string>
+    <string name="detail_pathway">Leads to</string>
+    <string name="detail_offered">What you will study</string>
+    <string name="detail_requirements">Entry requirements (Malaysian students)</string>
+    <string name="detail_sources">Official sources</string>
+
+    <!-- ===== Diplomas: one card per group; diplomas in a group share the same entry requirements ===== -->
+    <!-- Shared by every diploma card -->
+    <string name="prog_diploma_intake">January &amp; July</string>
+    <string name="prog_diploma_duration">Not stated in the sources used.</string>
+    <string name="prog_diploma_requirements_all"><b>All diploma programmes</b>\n• SVM: C in Bahasa Melayu (BM 1104), a pass in Sejarah (1251), 3 vocational credits, academic CGPA 2.00, vocational CGPA 2.67, and competent in all vocational modules\n• International students: TOEFL 500 or IELTS 5.0 (or equivalent)\n• APEL.A T-4: accepted, with experience as determined by GMI\n• Other recognised equivalent qualifications are accepted</string>
+
+    <!-- Mechanical Engineering: Precision Tooling, Innovative Product Design (MQA Standard) -->
+    <string name="prog_mech_short">Mechanical Engineering</string>
+    <string name="prog_mech_name">Precision Tooling &amp; Innovative Product Design</string>
+    <string name="prog_mech_tagline">2 MQA-standard engineering technology diplomas</string>
+    <string name="prog_mech_summary">Two diplomas from GMI’s Mechanical Engineering Department that share the same entry requirements (MQA Standard: Engineering and Engineering Technology).</string>
+    <string name="prog_mech_overview" formatted="false">This group has two diplomas from GMI’s Mechanical Engineering Department: Precision Tooling Engineering Technology and Innovative Product Design Engineering Technology. Both follow the MQA Standard for Engineering and Engineering Technology, so they have the same entry requirements.\n\nGMI’s diplomas follow its TVET learning approach of 70% practical and 30% theory, with exposure to 22 Advanced Technology Centres and internship and job placement opportunities with industry partners.</string>
+    <string name="prog_mech_pathway">Diploma qualification (MQA Standard: Engineering and Engineering Technology)</string>
+    <string name="prog_mech_requirement_summary">SPM: credit in Mathematics, 1 Science/Technical/Vocational subject and 1 other subject. O-Level: Grade C in the same 3 subjects. UEC: Grade B in 3 subjects. Every route also needs a pass in English.</string>
+    <string name="prog_mech_offered"><b>Mechanical Engineering Department</b>\n• Diploma in Precision Tooling Engineering Technology\n• Diploma in Innovative Product Design Engineering Technology</string>
+    <string name="prog_mech_requirements"><b>MQA Standard: Engineering and Engineering Technology</b>\nBoth diplomas in this group have the same minimum requirements:\n• SPM: a credit in Mathematics + 1 Science/Technical/Vocational subject + 1 other subject AND a pass in English\n• O-Level: Grade C in 3 subjects (same pattern) AND a pass in English\n• UEC: Grade B in 3 subjects (same pattern; the other subject can be from any field) AND a pass in English\n• Certificate (related field): CGPA 2.00\n• Technical/Vocational or Skills Certificate (SKM Level 3): SPM with 1 credit, plus 1 year of work experience or at least 1 semester of bridging\n• STPM: 1 principal in any subject, plus a pass in Mathematics, English and 1 other subject at SPM\n• Pre-Diploma / Matriculation (related field): CGPA 2.00, plus SPM with 3 credits including Bahasa Melayu and 2 other subjects, AND a pass in English\n\n<b>Other requirements</b>\nNo physical disability that would hinder practical work, no colour blindness, and a pass in a medical examination and urine test.</string>
+    <string name="prog_mech_sources">• Entry requirements: GMI Programme Guide May 2026 (rev 02), p. 36\nhttps://www.gmi.edu.my/wp-content/uploads/2026/05/PROGRAMME-GUIDE-May-2026-rev-02.pdf\n• Diploma admission page (Diploma Entry Requirement PDF)\nhttps://www.gmi.edu.my/diploma-programme-admission/\n• Programmes offered and intakes: Programme Guide May 2026, p. 9</string>
+
+    <!-- Software Engineering (MQA Standard: Computing) -->
+    <string name="prog_software_short">Software Engineering</string>
+    <string name="prog_software_name">Diploma in Software Engineering</string>
+    <string name="prog_software_tagline">MQA-standard computing diploma</string>
+    <string name="prog_software_summary">A computing diploma from GMI’s Computer &amp; Information Department (MQA Standard: Computing).</string>
+    <string name="prog_software_overview" formatted="false">The Diploma in Software Engineering is offered by GMI’s Computer &amp; Information Department and follows the MQA Standard for Computing.\n\nGMI’s diplomas follow its TVET learning approach of 70% practical and 30% theory, with exposure to 22 Advanced Technology Centres and internship and job placement opportunities with industry partners.</string>
+    <string name="prog_software_pathway">Diploma qualification (MQA Standard: Computing)</string>
+    <string name="prog_software_requirement_summary">SPM: 3 credits, including Mathematics. O-Level: Grade C in 3 subjects, including Mathematics. Without SPM Mathematics you can still be admitted, but you must pass reinforcement Mathematics in semester 1.</string>
+    <string name="prog_software_offered"><b>Computer &amp; Information Department</b>\n• Diploma in Software Engineering</string>
+    <string name="prog_software_requirements"><b>MQA Standard: Computing</b>\n• SPM: 3 credits in any subjects, including Mathematics (or equivalent)\n• O-Level: Grade C in 3 subjects, including Mathematics\n• STPM: Grade C (2.00) in 1 subject, plus a credit in SPM Mathematics\n• STAM: Maqbul, plus a credit in SPM Mathematics\n• SKM Level 3 (related field): pass. Without Mathematics, your competency is assessed.\n• Certificate (MQF Level 3, related field): CGPA 2.00\n\nWithout a pass in SPM Mathematics you can still be admitted, but you must pass a reinforcement Mathematics subject in semester 1 (or before enrolment). A credit in a computing-related subject may be given preferential consideration.</string>
+    <string name="prog_software_sources">• Entry requirements: GMI Programme Guide May 2026 (rev 02), p. 37\nhttps://www.gmi.edu.my/wp-content/uploads/2026/05/PROGRAMME-GUIDE-May-2026-rev-02.pdf\n• Diploma admission page (Diploma Entry Requirement PDF)\nhttps://www.gmi.edu.my/diploma-programme-admission/\n• Programmes offered and intakes: Programme Guide May 2026, p. 9</string>
+
+    <!-- Creative Multimedia (MQA Standard: Creative Multimedia Technology) -->
+    <string name="prog_multimedia_short">Creative Multimedia</string>
+    <string name="prog_multimedia_name">Diploma in Creative Multimedia</string>
+    <string name="prog_multimedia_tagline">MQA-standard creative multimedia diploma</string>
+    <string name="prog_multimedia_summary">A creative multimedia diploma from GMI’s Computer &amp; Information Department (MQA Standard: Creative Multimedia Technology).</string>
+    <string name="prog_multimedia_overview" formatted="false">The Diploma in Creative Multimedia is offered by GMI’s Computer &amp; Information Department and follows the MQA Standard for Creative Multimedia Technology.\n\nGMI’s diplomas follow its TVET learning approach of 70% practical and 30% theory, with exposure to 22 Advanced Technology Centres and internship and job placement opportunities with industry partners.</string>
+    <string name="prog_multimedia_pathway">Diploma qualification (MQA Standard: Creative Multimedia Technology)</string>
+    <string name="prog_multimedia_requirement_summary">SPM: 3 credits. O-Level: Grade C in Mathematics, 1 Science/Technical/Vocational subject and 1 other subject, plus a pass in English.</string>
+    <string name="prog_multimedia_offered"><b>Computer &amp; Information Department</b>\n• Diploma in Creative Multimedia</string>
+    <string name="prog_multimedia_requirements"><b>MQA Standard: Creative Multimedia Technology</b>\n• SPM: 3 credits (or equivalent)\n• O-Level: Grade C in 3 subjects (Mathematics + 1 Science/Technical/Vocational-related subject + 1 other subject) AND a pass in English\n• Creative Multimedia Certificate: a recognised certificate or equivalent\n• Technical/Vocational Certificate (related field): 1 year of work experience or 1 semester of bridging\n• SKM Level 3: SPM with 1 credit</string>
+    <string name="prog_multimedia_sources">• Entry requirements: GMI Programme Guide May 2026 (rev 02), p. 38\nhttps://www.gmi.edu.my/wp-content/uploads/2026/05/PROGRAMME-GUIDE-May-2026-rev-02.pdf\n• Diploma admission page (Diploma Entry Requirement PDF)\nhttps://www.gmi.edu.my/diploma-programme-admission/\n• Programmes offered and intakes: Programme Guide May 2026, p. 9</string>
+
+    <!-- BEM-standard diplomas (ETAC) -->
+    <string name="prog_bem_short">BEM diplomas</string>
+    <string name="prog_bem_name">Engineering Technology Diplomas (BEM Standard)</string>
+    <string name="prog_bem_tagline">8 mechanical and electrical engineering technology diplomas</string>
+    <string name="prog_bem_summary">Eight diplomas from GMI’s Mechanical Engineering and Electrical Engineering departments that share the same entry requirements (BEM Standard, ETAC).</string>
+    <string name="prog_bem_overview" formatted="false">This group has eight engineering technology diplomas: three from GMI’s Mechanical Engineering Department and five from the Electrical Engineering Department. All of them follow the BEM Standard (ETAC), so they have the same entry requirements.\n\nGMI’s diplomas follow its TVET learning approach of 70% practical and 30% theory, with exposure to 22 Advanced Technology Centres and internship and job placement opportunities with industry partners.</string>
+    <string name="prog_bem_pathway">Diploma qualification (BEM Standard, ETAC). Programme briefs list careers such as CNC programmer, CAD designer, production executive and assistant engineer (CNC Precision example).</string>
+    <string name="prog_bem_requirement_summary">SPM: 3 credits, including Mathematics, 1 Science/Technical subject and 1 other subject. O-Level: Grade C in the same pattern, plus a pass in English.</string>
+    <string name="prog_bem_offered"><b>Mechanical Engineering Department</b>\n• Diploma of Mechanical Engineering Technology (CNC Precision)\n• Diploma of Mechanical Engineering Technology (Manufacturing)\n• Diploma in Industrial Quality Engineering Technology\n\n<b>Electrical Engineering Department</b>\n• Diploma of Mechatronics Engineering Technology\n• Diploma of Engineering Technology (Instrumentation and Control)\n• Diploma in Autotronics Engineering Technology\n• Diploma of Electronics Engineering Technology (Computer)\n• Diploma in Engineering Technology (Sustainable Energy and Power Distribution)</string>
+    <string name="prog_bem_requirements"><b>BEM Standard (ETAC)</b>\nAll eight diplomas in this group have the same minimum requirements:\n• SPM: 3 credits, including Mathematics + 1 Science/Technical subject + 1 other subject\n• O-Level: Grade C in 3 subjects (Mathematics + 1 Science/Technical/Vocational subject + 1 other subject) AND a pass in English\n• SKM Level 3 (related field): SPM with 1 credit, plus bridging if necessary (no longer than 1 year or 2 semesters)\n• Sijil Kolej Komuniti (MQF Level 3, related field): SPM with 1 credit, plus bridging if required\n• MQF Level 3 Certificate (related field): CGPA 2.00\n\n<b>Other requirements</b>\nNo physical disability that would hinder practical work, no colour blindness, and a pass in a medical examination and urine test.</string>
+    <string name="prog_bem_sources">• Entry requirements: GMI Programme Guide May 2026 (rev 02), p. 39\nhttps://www.gmi.edu.my/wp-content/uploads/2026/05/PROGRAMME-GUIDE-May-2026-rev-02.pdf\n• Diploma admission page (Diploma Entry Requirement PDF)\nhttps://www.gmi.edu.my/diploma-programme-admission/\n• Programmes offered and intakes: Programme Guide May 2026, p. 9</string>
+
+    <!-- MBOT-standard diplomas -->
+    <string name="prog_mbot_short">MBOT diplomas</string>
+    <string name="prog_mbot_name">Technology Diplomas (MBOT Standard)</string>
+    <string name="prog_mbot_tagline">Cyber security, industrial design and machine tools maintenance</string>
+    <string name="prog_mbot_summary">Three diplomas that share the same entry requirements (MBOT Standard): Cyber Security Technology, Industrial Design and Machine Tools Maintenance.</string>
+    <string name="prog_mbot_overview" formatted="false">This group has three diplomas: Cyber Security Technology from GMI’s Computer &amp; Information Department, and Engineering Technology (Industrial Design) and Engineering Technology (Machine Tools Maintenance) from the Mechanical Engineering Department. All of them follow the MBOT Standard, so they have the same entry requirements.\n\nGMI’s diplomas follow its TVET learning approach of 70% practical and 30% theory, with exposure to 22 Advanced Technology Centres and internship and job placement opportunities with industry partners.</string>
+    <string name="prog_mbot_pathway">Diploma qualification (MBOT Standard)</string>
+    <string name="prog_mbot_requirement_summary">SPM: 3 credits in any subjects. O-Level: Grade C in 3 subjects. UEC: Grade B in 3 subjects. STPM, STAM, SKM and certificate routes are also accepted.</string>
+    <string name="prog_mbot_offered"><b>Computer &amp; Information Department</b>\n• Diploma in Cyber Security Technology\n\n<b>Mechanical Engineering Department</b>\n• Diploma in Engineering Technology (Industrial Design)\n• Diploma in Engineering Technology (Machine Tools Maintenance)</string>
+    <string name="prog_mbot_requirements"><b>MBOT Standard</b>\nAll three diplomas in this group have the same minimum requirements:\n• SPM: 3 credits in any subjects\n• O-Level: Grade C in 3 subjects\n• UEC: Grade B in 3 subjects\n• Pre-Diploma: at least 1 semester, with SPM or equivalent and 3 credits in any subjects\n• SKM Level 3 (related field): SPM with 1 credit, plus 1 semester of bridging\n• MQF Level 3 Certificate: CGPA 2.00 or equivalent\n• Vocational Certificate (related field): CGPA 2.00\n• STPM: Grade C (CGPA 2.00) in any subject\n• STAM: Maqbul\n\n<b>Other requirements</b>\nNo physical disability that would hinder practical work, no colour blindness, and a pass in a medical examination and urine test.</string>
+    <string name="prog_mbot_sources">• Entry requirements: GMI Programme Guide May 2026 (rev 02), p. 40\nhttps://www.gmi.edu.my/wp-content/uploads/2026/05/PROGRAMME-GUIDE-May-2026-rev-02.pdf\n• Diploma admission page (Diploma Entry Requirement PDF, including Cyber Security Technology)\nhttps://www.gmi.edu.my/diploma-programme-admission/\n• Programmes offered and intakes: Programme Guide May 2026, p. 9</string>
+
+    <!-- GAPP -->
+    <string name="prog_gapp_short">GAPP</string>
+    <string name="prog_gapp_name">German University Preparatory Programme (GAPP)</string>
+    <string name="prog_gapp_tagline">Cambridge A-Level and German language pathway to study in Germany</string>
+    <string name="prog_gapp_summary">A pre-university programme launched at GMI in 2001 for students who want to study engineering at a University of Applied Sciences in Germany.</string>
+    <string name="prog_gapp_overview">German Universities of Applied Sciences require A-Levels, TestDaF and a Vorpraktikum (pre-study internship) for enrolment. GAPP prepares students for all three: a 20-month preparatory programme at GMI, followed by 6 months of intensive German language training at language centres in Germany. After completing both, students apply to a University of Applied Sciences (UAS) or Hochschule in Germany.</string>
+    <string name="prog_gapp_intake">January, May &amp; August</string>
+    <string name="prog_gapp_duration">20 months at GMI + 6 months of German language training in Germany</string>
+    <string name="prog_gapp_pathway">Engineering studies at a University of Applied Sciences (UAS) / Hochschule in Germany</string>
+    <string name="prog_gapp_requirement_summary">YTP MARA (sponsored): SPM with 8As, including English, Add Maths, Physics and Chemistry. Self-sponsored: C in English, Mathematics, Add Maths, Physics and Chemistry, plus Bahasa Melayu (SPM) or 1 other subject (IGCSE/O-Level).</string>
+    <string name="prog_gapp_offered"><b>Cambridge GCE A-Level</b>\n• Mathematics (9709)\n• Physics (9702)\n• Chemistry (9701)\n• German (8027)\n\n<b>Also included</b>\n• German language from Level A2 to C1\n• 440 hours of Vorpraktikum (pre-study technical internship)\n• In Germany: German from B2 to TestDaF, an intercultural and study skills workshop, technical German, study placement advice and an internship (depends on placement)</string>
+    <string name="prog_gapp_requirements"><b>Sponsored candidate (YTP MARA)</b>\n• Bumiputera\n• SPM with “A” in English, Additional Mathematics, Physics, Chemistry and 4 other subjects (8As)\n• Apply through MARA: www.mara.gov.my (terms and conditions apply)\n\n<b>Self-sponsored / private candidate (local and international)</b>\n• SPM: “C” in Bahasa Melayu, English, Mathematics, Additional Mathematics, Physics and Chemistry\n• IGCSE / O-Level: “C” in English, Mathematics, Additional Mathematics, Physics, Chemistry and 1 other subject\n• Other recognised equivalent qualifications are accepted\n• Apply through GMI: www.gmi.edu.my\n\nGMI marks both routes as “subject to changes”.</string>
+    <string name="prog_gapp_sources">• GAPP admission page (entry requirements)\nhttps://www.gmi.edu.my/a-level-programme-admission/\n• GAPP programme page (overview and structure)\nhttps://www.gmi.edu.my/pre-university-programme/german-a-level-preparatory-programme-gapp/\n• Programme Guide May 2026, pp. 44–45 (entry requirements, intakes, A-Level subjects)</string>
+
+    <!-- GUFP -->
+    <string name="prog_gufp_short">GUFP</string>
+    <string name="prog_gufp_name">GMI–UTP Foundation Programme (GUFP)</string>
+    <string name="prog_gufp_tagline">One-year Foundation in Engineering and Science with Universiti Teknologi PETRONAS</string>
+    <string name="prog_gufp_summary">A strategic partnership between GMI and Universiti Teknologi PETRONAS (UTP), based on UTP’s foundation syllabus.</string>
+    <string name="prog_gufp_overview">Foundation in Collaboration with Universiti Teknologi PETRONAS, also known as the GMI–UTP Foundation Programme (GUFP), is a one-year foundation programme based on UTP’s foundation syllabus. On completion, students are qualified to start their undergraduate programme at UTP, subject to meeting UTP’s academic requirements. English is the medium of instruction, and weekly German language classes and activities are available.</string>
+    <string name="prog_gufp_intake">April &amp; July</string>
+    <string name="prog_gufp_duration">1 year: 3 trimesters, 50 credits in total</string>
+    <string name="prog_gufp_pathway">Undergraduate degree programmes at Universiti Teknologi PETRONAS (UTP)</string>
+    <string name="prog_gufp_requirement_summary">SPM: at least C in Bahasa Melayu, English, Mathematics, Add Maths, Physics and Chemistry. IGCSE/O-Level: C in 5 subjects, including Mathematics, Physics, Chemistry and Add Maths.</string>
+    <string name="prog_gufp_offered"><b>Foundation in Engineering and Science</b>\n• Mathematics, Physics and Chemistry (I and II)\n• Structured Algorithms and Programming\n• Technical English\n• Thinking Skills\n• Islamic Studies / Moral Studies\n• Co-curriculum\n• Introduction to German culture and basic German\n\n<b>UTP degree pathways (May 2026 guide)</b>\nChemical, Civil, Electrical &amp; Electronics, Integrated, Mechanical, Petroleum, Computer and Material Engineering; BSc in Applied Physics, Industrial Physics, Applied Chemistry and Petroleum Geoscience</string>
+    <string name="prog_gufp_requirements" formatted="false"><b>SPM</b>\n• Pass SPM with minimum Grade C in Bahasa Melayu, Mathematics, English, Additional Mathematics, Physics and Chemistry\n\n<b>IGCSE / O-Level</b>\n• Pass IGCSE/O-Level with minimum credits (Grade C) or 60% and above in 5 subjects, inclusive of Mathematics, Physics, Chemistry, Additional Mathematics and any other 1 subject\n\nGMI marks these requirements as “subject to changes”.</string>
+    <string name="prog_gufp_sources">• Foundation admission page (“GUFP Admission Requirement” image)\nhttps://www.gmi.edu.my/foundation-programme-admission/\n• GUFP programme page (overview, curriculum and requirements)\nhttps://www.gmi.edu.my/gmi-utp-foundation-studies-programme/\n• Programme Guide May 2026, pp. 47–50</string>
+
+    <!-- ===== Eligibility checker ===== -->
+    <string name="eligibility_title">Eligibility checker</string>
+    <string name="eligibility_intro">Choose your entry route and enter your results. The checker compares them with GMI’s published minimum entry requirements and lists every programme you may be eligible for.</string>
+    <string name="eligibility_step_route">1. Choose your entry route</string>
+    <string name="eligibility_step_grades">2. Enter your grades</string>
+    <string name="route_spm">SPM</string>
+    <string name="route_olevel">O-Level / IGCSE</string>
+    <string name="route_uec">UEC</string>
+    <string name="route_other">Other route (STPM, SKM, SVM, Matriculation, certificate…)</string>
+    <string name="grade_not_taken">Not taken</string>
+    <string name="eligibility_grades_help">Pick a grade for each subject you sat. Leave “Not taken” for subjects you did not take.</string>
+    <string name="eligibility_note_spm">SPM grades: a credit is A+ to C, and a pass is A+ to E.</string>
+    <string name="eligibility_note_olevel">Use letter grades (A* to G, U = ungraded). If your IGCSE uses the 9–1 scale, confirm the equivalent grade with GMI.</string>
+    <string name="eligibility_note_uec">UEC grades A1 to F9. GMI’s “Grade B” means B6 or better, and a pass means C8 or better.</string>
+    <string name="eligibility_other_title">Other entry routes</string>
+    <string name="eligibility_other_body">For diploma programmes, GMI also lists routes such as STPM, STAM, SKM Level 3, SVM, Sijil Kolej Komuniti, Pre-Diploma/Matriculation, MQF Level 3 certificates and APEL.A T-4. These have extra conditions (CGPA, work experience or bridging programmes), so this checker cannot assess them automatically. Please read the official requirements or contact GMI.</string>
+    <string name="eligibility_error_no_grades">Please enter at least one grade first.</string>
+    <string name="eligibility_disclaimer">This checker is a guide based on GMI’s published minimum entry requirements. GMI makes the final admission decision.</string>
+
+    <!-- Subject labels -->
+    <string name="subject_bahasa_melayu">Bahasa Melayu</string>
+    <string name="subject_english">English</string>
+    <string name="subject_mathematics">Mathematics</string>
+    <string name="subject_add_maths">Additional Mathematics</string>
+    <string name="subject_physics">Physics</string>
+    <string name="subject_chemistry">Chemistry</string>
+    <string name="subject_biology">Biology</string>
+    <string name="subject_science_technical">Other science / technical subject (e.g. Engineering Drawing, Computer Science)</string>
+    <string name="subject_other_1">Other subject 1</string>
+    <string name="subject_other_2">Other subject 2</string>
+    <string name="subject_other_3">Other subject 3</string>
+
+    <!-- ===== Eligibility results ===== -->
+    <string name="result_title">Your results</string>
+    <string name="result_route">Entry route: %1$s</string>
+    <plurals name="result_summary_count">
+        <item quantity="one">You may be eligible for %d programme option</item>
+        <item quantity="other">You may be eligible for %d programme options</item>
+    </plurals>
+    <string name="result_summary_none">No matching programme found</string>
+    <string name="result_summary_none_body">Your grades do not meet the published minimum requirements that this checker can test. See the reasons below, or contact GMI for advice on other routes.</string>
+    <string name="result_summary_body">Check the notes on each card before you apply.</string>
+    <string name="result_apply_title">Ready to apply?</string>
+    <string name="result_apply_body">You have at least one matching programme. Submit your application through GMI’s official online application portal.</string>
+    <string name="result_section_eligible">Eligible</string>
+    <string name="result_section_unlisted">Route not listed – ask GMI</string>
+    <string name="result_section_not">Not eligible yet</string>
+    <string name="status_eligible">Eligible</string>
+    <string name="status_unlisted">Route not listed</string>
+    <string name="status_not_eligible">Requirements not met</string>
+    <string name="result_unlisted_reason">Your entry route is not listed in GMI’s published requirements for this programme. Ask GMI whether your qualification is accepted as an equivalent.</string>
+    <string name="result_disclaimer">This result is a guide only. It is based on GMI’s published minimum entry requirements (Programme Guide May 2026 and gmi.edu.my admission pages). GMI makes the final admission decision.</string>
+
+    <!-- Reasons (formatted with subject names and grades) -->
+    <string name="reason_min_grade">Need at least %2$s in %1$s</string>
+    <string name="reason_pass">Need a pass in %1$s</string>
+    <plurals name="reason_min_subjects">
+        <item quantity="one">Need %2$s or better in at least %1$d subject (you have %3$d)</item>
+        <item quantity="other">Need %2$s or better in at least %1$d subjects (you have %3$d)</item>
+    </plurals>
+    <string name="reason_science_technical">Need %1$s or better in a science/technical subject (e.g. Additional Mathematics, Physics, Chemistry, Biology)</string>
+    <plurals name="reason_other_subjects">
+        <item quantity="one">Need %2$s or better in %1$d other subject (you have %3$d)</item>
+        <item quantity="other">Need %2$s or better in %1$d other subjects (you have %3$d)</item>
+    </plurals>
+    <string name="condition_reinforcement_maths">You do not have a credit in SPM Mathematics. You can still be admitted, but you must pass a reinforcement Mathematics subject in semester 1 (or before enrolment).</string>
+
+    <!-- Programme tracks used by the checker -->
+    <string name="track_diploma_bem">Diploma – Engineering Technology (BEM)</string>
+    <string name="track_diploma_bem_list">Mechatronics • Instrumentation and Control • Electronics (Computer) • Sustainable Energy and Power Distribution • Autotronics • Mechanical (CNC Precision) • Mechanical (Manufacturing) • Industrial Quality</string>
+    <string name="track_diploma_mqa_eng">Diploma – Precision Tooling &amp; Product Design</string>
+    <string name="track_diploma_mqa_eng_list">Precision Tooling Engineering Technology • Innovative Product Design Engineering Technology</string>
+    <string name="track_diploma_computing">Diploma in Software Engineering</string>
+    <string name="track_diploma_computing_list">Computer &amp; Information Department</string>
+    <string name="track_diploma_multimedia">Diploma in Creative Multimedia</string>
+    <string name="track_diploma_multimedia_list">Computer &amp; Information Department</string>
+    <string name="track_diploma_mbot">Diploma – Cyber Security, Industrial Design &amp; Machine Tools</string>
+    <string name="track_diploma_mbot_list">Cyber Security Technology • Engineering Technology (Industrial Design) • Engineering Technology (Machine Tools Maintenance)</string>
+    <string name="track_gapp_ytp">GAPP – Sponsored (YTP MARA)</string>
+    <string name="track_gapp_ytp_list">German University Preparatory Programme</string>
+    <string name="track_gapp_self">GAPP – Self-sponsored</string>
+    <string name="track_gapp_self_list">German University Preparatory Programme</string>
+    <string name="track_gufp">GMI–UTP Foundation Programme (GUFP)</string>
+    <string name="track_gufp_list">Foundation in Engineering and Science</string>
+
+    <!-- Fixed notes shown on matching cards -->
+    <string name="note_engineering_medical">Also required: no physical disability that would hinder practical work, no colour blindness, and a pass in a medical examination and urine test.</string>
+    <string name="note_computing">Credits in computing-related subjects may be given preferential consideration.</string>
+    <string name="note_gapp_ytp">Also requires Bumiputera status. Sponsored applications are made through MARA (www.mara.gov.my). GMI marks these requirements as “subject to changes”.</string>
+    <string name="note_gapp_self">Self-sponsored applicants apply through GMI. GMI marks these requirements as “subject to changes”.</string>
+    <string name="note_gufp">GMI marks these requirements as “subject to changes”.</string>
+
+    <!-- ===== About & Contact ===== -->
+    <string name="about_title">About &amp; Contact</string>
+    <string name="about_heading">About GMI</string>
+    <string name="about_body">German-Malaysian Institute (GMI) is a hub for advanced skills training and the outcome of a joint venture between the Governments of Malaysia and Germany. It was set up as a company limited by guarantee. Its founders are Majlis Amanah Rakyat (MARA) and the Malaysian German Chamber of Commerce and Industry (MGCC), and its implementing agencies are MARA and Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH.\n\nGMI enrolled its first students in 1992 and has been at its industrial-based campus in Kajang, Selangor, since 2008. It offers full-time diploma programmes, a pre-university programme (A-Level), a foundation programme, skills upgrading courses, train-the-trainer programmes, and industrial consultancy and services.</string>
+    <string name="about_vision_title">Vision</string>
+    <string name="about_vision_body">To be an internationally competitive higher learning institution delivering advanced technical education, training and services; empowering a skilled workforce to reach its fullest potential.</string>
+    <string name="about_mission_title">Mission</string>
+    <string name="about_mission_body">To provide cutting-edge industrial solutions in advanced technical education and training through innovative blended methodologies, fostering lifelong learning and responsive to global industry demands.</string>
+    <string name="contact_heading">Official contact details</string>
+    <string name="contact_address_label">Address</string>
+    <string name="contact_address_value">German-Malaysian Institute, Jalan Ilmiah, Taman Universiti, 43000 Kajang, Selangor, Malaysia</string>
+    <string name="contact_phone_label">Phone (main line)</string>
+    <string name="contact_phone_value">+603-8921 9000</string>
+    <string name="contact_phone_other">Other lines listed on gmi.edu.my: +603-8921 9191 / 9450 / 9257 / 9046 / 9322</string>
+    <string name="contact_fax_label">Fax</string>
+    <string name="contact_fax_value">+603-8921 9001</string>
+    <string name="contact_email_label">Email</string>
+    <string name="contact_email_value">marketing@gmi.edu.my</string>
+    <string name="contact_whatsapp_label">WhatsApp</string>
+    <string name="contact_whatsapp_value">+6011-5674 1706</string>
+    <string name="contact_website_label">Website</string>
+    <string name="contact_website_value">www.gmi.edu.my</string>
+    <string name="enquiry_heading">Enquiries</string>
+    <string name="enquiry_body">For programme or admission enquiries, call or email GMI, send a WhatsApp message, or use the enquiry form on GMI’s Contact Us page. The form asks for your name, email, contact number and message.</string>
+    <string name="location_heading">Location</string>
+    <string name="location_body">Jalan Ilmiah, Taman Universiti, 43000 Kajang, Selangor. Open the map for directions.</string>
+    <string name="social_heading">Follow GMI</string>
+    <string name="social_facebook">Facebook</string>
+    <string name="social_instagram">Instagram</string>
+    <string name="social_tiktok">TikTok</string>
+    <string name="social_youtube">YouTube</string>
+    <string name="social_linkedin">LinkedIn</string>
+    <string name="email_subject">Enquiry from GMI Prospect app</string>
+    <string name="about_source_note">Source: gmi.edu.my (History, Contact Us and website footer) and GMI Programme Guide May 2026, checked 5 November 2026.</string>
+</resources>

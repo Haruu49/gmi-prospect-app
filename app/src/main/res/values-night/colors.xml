@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark mode versions of the semantic colours. Brand gradients stay the same. -->
+    <color name="brand_primary">#FF6CB8F0</color>
+    <color name="brand_on_primary">#FF002E4F</color>
+    <color name="app_background">#FF0F1420</color>
+    <color name="app_surface">#FF182030</color>
+    <color name="text_primary">#FFE8EDF4</color>
+    <color name="text_secondary">#FFAAB4C3</color>
+    <color name="outline">#FF2C3748</color>
+    <color name="chip_background">#FF1D3550</color>
+    <color name="chip_text">#FFA9D4F5</color>
+
+    <color name="brand_container">#FF1D3A58</color>
+    <color name="brand_on_container">#FFCFE5FA</color>
+    <color name="surface_container_lowest">#FF0B0F18</color>
+    <color name="surface_container_low">#FF141B28</color>
+    <color name="surface_container">#FF182030</color>
+    <color name="surface_container_high">#FF1F2838</color>
+    <color name="surface_container_highest">#FF263042</color>
+
+    <color name="status_eligible_bg">#FF173A25</color>
+    <color name="status_eligible_text">#FF8FE0A9</color>
+    <color name="status_unlisted_bg">#FF263142</color>
+    <color name="status_unlisted_text">#FFC2CCDA</color>
+    <color name="status_not_bg">#FF3D1A1C</color>
+    <color name="status_not_text">#FFFF9C9E</color>
+
+    <color name="note_background">#FF33270F</color>
+    <color name="note_border">#FF7A5A1E</color>
+    <color name="note_text">#FFFFD58A</color>
+</resources>

@@ -1,0 +1,94 @@
+<resources>
+    <!-- Base application theme: Material 3 with GMI brand colours. -->
+    <style name="Base.Theme.GMIAPPS" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorOnPrimary">@color/brand_on_primary</item>
+        <item name="colorSecondary">@color/gmi_red</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorTertiary">@color/gmi_sky</item>
+        <item name="android:colorBackground">@color/app_background</item>
+        <item name="colorSurface">@color/app_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorPrimaryContainer">@color/brand_container</item>
+        <item name="colorOnPrimaryContainer">@color/brand_on_container</item>
+        <item name="colorSecondaryContainer">@color/brand_container</item>
+        <item name="colorOnSecondaryContainer">@color/brand_on_container</item>
+        <item name="colorTertiaryContainer">@color/brand_container</item>
+        <item name="colorOnTertiaryContainer">@color/brand_on_container</item>
+        <item name="colorSurfaceVariant">@color/surface_container_high</item>
+        <item name="colorSurfaceContainerLowest">@color/surface_container_lowest</item>
+        <item name="colorSurfaceContainerLow">@color/surface_container_low</item>
+        <item name="colorSurfaceContainer">@color/surface_container</item>
+        <item name="colorSurfaceContainerHigh">@color/surface_container_high</item>
+        <item name="colorSurfaceContainerHighest">@color/surface_container_highest</item>
+        <item name="colorOutlineVariant">@color/outline</item>
+        <item name="materialCardViewStyle">@style/Widget.GMI.Card</item>
+        <!-- Keep cards pure white/dark instead of Material 3's blue elevation tint. -->
+        <item name="elevationOverlayEnabled">false</item>
+        <!-- Slide animations between screens (res/anim/screen_*.xml) -->
+        <item name="android:windowAnimationStyle">@style/GMI.WindowAnimation</item>
+    </style>
+
+    <style name="Theme.GMIAPPS" parent="Base.Theme.GMIAPPS" />
+
+    <!-- Splash screen theme (AndroidX SplashScreen). MainActivity switches to
+         Theme.GMIAPPS after the splash is dismissed. -->
+    <style name="Theme.GMIAPPS.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.GMIAPPS</item>
+        <!-- Dark status/navigation bar icons on the white splash background -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <!-- Activity open/close animations used by every screen -->
+    <style name="GMI.WindowAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/screen_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/screen_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/screen_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/screen_close_exit</item>
+    </style>
+
+    <!-- Reusable component styles -->
+    <style name="Widget.GMI.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/app_surface</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">2dp</item>
+    </style>
+
+    <style name="Widget.GMI.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="titleTextColor">@color/white</item>
+        <item name="navigationIconTint">@color/white</item>
+    </style>
+
+    <style name="Widget.GMI.Button.OnDark" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/gmi_navy</item>
+        <item name="iconTint">@color/gmi_navy</item>
+    </style>
+
+    <style name="Widget.GMI.Button.OutlinedOnDark" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="strokeColor">@color/white</item>
+        <item name="iconTint">@color/white</item>
+    </style>
+
+    <style name="TextAppearance.GMI.SectionTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.GMI.Label" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">@color/brand_primary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.06</item>
+    </style>
+
+    <style name="TextAppearance.GMI.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:lineSpacingMultiplier">1.15</item>
+    </style>
+</resources>
